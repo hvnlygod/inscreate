@@ -38,7 +38,7 @@ options.add_experimental_option("detach", True)
 
 #Proxy (highly required)
 
-prox = Proxy()
+prox = Proxy(78.38.93.152:3128)
 prox.proxy_type = ProxyType.MANUAL
 
 prox.http_proxy = "ip_addr:port"
